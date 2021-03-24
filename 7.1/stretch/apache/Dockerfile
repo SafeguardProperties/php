@@ -266,7 +266,7 @@ STOPSIGNAL WINCH
 COPY apache2-foreground /usr/local/bin/
 WORKDIR /var/www/html
 
-ADD https://oracledistrib.s3.amazonaws.com/execssm-2021-03-09 /execssm
+ADD https://oracledistrib.s3.amazonaws.com/execssm-2021-03-24 /execssm
 RUN chmod 755 /execssm
 
 EXPOSE 80
